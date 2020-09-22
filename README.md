@@ -9,8 +9,8 @@ The demo will retrieve a Wikipedia page, and answer a question
 
 optional arguments:
   -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        input the wiki page, e.g., "chicago bears"
+  -p PAGE, --page PAGE
+                        input the wiki page, e.g., "chicago_bears"
   -q QUESTION, --question QUESTION
                         ask a question, e.g., "when did the bears move?"
 ```
