@@ -45,4 +45,5 @@ try:
 except Exception as e:
     print("Error: {}".format(e))
 
-print("\nBest answer for \n\nQ: \"{}\"\nA: {}\n\nusing this passage:\n\n\"{}\"\n\n".format(respJSON['question'], respJSON['answers'][0]['Answer'], respJSON['answers'][0]['Passage']))
+print("\nBest answer for \n\nQ: \"{}\"\nA: {}\n\nusing this passage:\n\n\"{}\"\n\n".
+      format(respJSON['question'], respJSON['answers'][0]['Answer'], respJSON['answers'][0]['Passage']))
