@@ -1,5 +1,5 @@
-python -m pip install wikipedia -U
-python -m pip install requests -U
+python -m pip install wikipedia -U </br>
+python -m pip install requests -U </br>
 
-or 
-python -m pip -r requirements.txt
+or </br>
+python -m pip -r requirements.txt </br>
