@@ -7,14 +7,14 @@ import requests
 #
 
 parser = argparse.ArgumentParser(description = "The demo will retrieve a Wikipedia page, and answer a question")
-parser.add_argument('-i', '--input', help="input the wiki page, e.g., \"chicago bears\"", type=str, required=True )
+parser.add_argument('-p', '--page', help="input the wiki page, e.g., \"chicago bears\"", type=str, required=True )
 parser.add_argument('-q', '--question', help="ask a question, e.g., \"when did the bears move?\"", type=str, required = True)
 args = parser.parse_args()
 
 #
 # wiki page content in result.content
 #
-resultWiki = wiki.WikipediaPage(title=args.input)
+resultWiki = wiki.WikipediaPage(title=args.page)
 
 #
 #  set up for API call
