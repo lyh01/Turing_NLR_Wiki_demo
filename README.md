@@ -16,7 +16,7 @@ optional arguments:
 ```
 Example:
 ```
-python ./wiki-demo.py --page 2020_Chicago_Bears_season --question "what trades did the bears make for 2019?"
+>python ./wiki-demo.py --page 2020_Chicago_Bears_season --question "what trades did the bears make for 2019?"
 
 Best answer for 
 
@@ -28,7 +28,7 @@ using this passage:
 
 "Shortly after the 2019 season came to an end, the Bears signed wide receivers Reggie Davis, Thomas Ives, and Alex Wesley; tight end Dax Raymond; offensive linemen Dino Boyd and Sam Mustipher; linebacker James Vaughters; and defensive backs Xavier Crawford and Stephen Denmark to reserve/future contracts. All nine players were members of the practice squad in 2019, with Vaughters being the only one to play in the regular season that year. On January 6, tight end Darion Clark was also signed to a reserve/future contract; a former college basketball player, Clark had last played football in high school but participated in the USC Trojans football Pro Day in 2018."
 
-python ./wiki-demo.py --input national_football_league --question "what happened to the bears in 1932?"
+>python ./wiki-demo.py --input national_football_league --question "what happened to the bears in 1932?"
 
 question: what happened to the bears in 1932?
 
