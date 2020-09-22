@@ -1,5 +1,5 @@
 
-This simple code demonstrates how to perform semantic search using  Microsoft's [Turing-NLG](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/), a 17-billion-paramater language model question and answer (Q&A) API. You will need substitute in your own API key.
+This simple code demonstrates how to perform semantic search using  Microsoft's [Turing-NLG](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/), a 17-billion-paramater language model question and answer (Q&A) API. You will need to substitute in your own API key.
 ```
 python wiki-demo.py --help
 usage: wiki-demo.py [-h] -i INPUT -q QUESTION
