@@ -19,7 +19,7 @@ except:
 
 headers = {
     'Content-Type': 'application/json',
-    'Ocp-Apim-Subscription-Key': '130743a0539e4c82962b1c2567a57e54',
+    'Ocp-Apim-Subscription-Key': 'put-your-T-NLG-API-key-here',   # <--- replace
 }
 
 params = {
