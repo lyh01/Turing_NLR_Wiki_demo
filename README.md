@@ -5,7 +5,7 @@ T-NLG is a transformer-based language model, it has 78 Transformer layers with a
 
 ```
 python wiki-demo.py --help
-usage: wiki-demo.py [-h] -i INPUT -q QUESTION
+usage: wiki-demo.py [-h] -p PAGE -q QUESTION
 
 This demo will retrieve a Wikipedia page (--page), and answer a question (--question) based on its content
 
