@@ -6,7 +6,7 @@ import requests
 # Process --page and --question from command line
 #
 
-parser = argparse.ArgumentParser(description = "This demo will retrieve a Wikipedia page, and answer a question based on its content")
+parser = argparse.ArgumentParser(description = "This demo will retrieve a Wikipedia page (--page), and answer a question (--question) based on its content")
 parser.add_argument('-p', '--page', help="input the wiki page, e.g., \"chicago bears\"", type=str, required=True )
 parser.add_argument('-q', '--question', help="ask a question, e.g., \"when did the bears move?\"", type=str, required = True)
 args = parser.parse_args()
