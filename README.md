@@ -5,7 +5,7 @@ This simple code demonstrates how to perform semantic search using  Microsoft's 
 python wiki-demo.py --help
 usage: wiki-demo.py [-h] -i INPUT -q QUESTION
 
-The demo will retrieve a Wikipedia page, and answer a question
+This demo will retrieve a Wikipedia page, and answer a question based on its content
 
 optional arguments:
   -h, --help            show this help message and exit
