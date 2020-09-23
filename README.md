@@ -30,8 +30,6 @@ using this passage:
 
 >python ./wiki-demo.py --page national_football_league --question "what happened to the bears in 1932?"
 
-question: what happened to the bears in 1932?
-
 Best answer for 
 
 Q: "what happened to the bears in 1932?"
