@@ -1,6 +1,8 @@
 
 This simple code demonstrates how to perform semantic search using  Microsoft's [Turing-NLG's](https://www.microsoft.com/en-us/research/blog/turing-nlg-a-17-billion-parameter-language-model-by-microsoft/), a 17-billion-paramater language model, question and answer (Q&A) API. You will need to substitute in your own API key.
 
+T-NLG is a transformer-based language model, it has 78 Transformer layers with a hidden size of 4256 and 28 attention heads. Transformer-based language models have improved the state of the art on nearly every downstream natural language processing (NLP) task, including question answering, conversational agents (bots), and document understanding among others.
+
 ```
 python wiki-demo.py --help
 usage: wiki-demo.py [-h] -i INPUT -q QUESTION
